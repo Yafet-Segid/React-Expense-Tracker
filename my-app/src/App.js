@@ -5,7 +5,7 @@ import ExpenseForm from "./contents/ExpenseForm";
 import Table from "./contents/Table";
 
 function App() {
-  const [type, setType] = useState("");
+  const [type, setType] = useState(" ");
   const [name, setName] = useState("");
   const [date, setDate] = useState("");
   const [amount, setAmount] = useState("");
