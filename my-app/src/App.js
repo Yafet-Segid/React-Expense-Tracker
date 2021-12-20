@@ -36,12 +36,11 @@ function App() {
     const index = expenseList.findIndex((expense) => expense.id === id);
     newContact.splice(index, 1);
     setExpenseList(newContact);
-    // const savedExpenses = expenseList.filter()
   };
 
   return (
     <div className="App">
-      <h1 className="text-primary mt-sm-2 mb-sm-4 ">Expense Tracker</h1>
+      <h1 className="textHeader mt-sm-2 mb-sm-4 ">Expense Tracker</h1>
 
       <ExpenseForm
         handleFormSubmit={handleFormSubmit}

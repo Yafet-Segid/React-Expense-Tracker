@@ -8,7 +8,7 @@ const Table = (props) => {
       <td>{expense.name}</td>
       <td>{expense.type}</td>
       <td>{expense.date}</td>
-      <td>{expense.amount}</td>
+      <td>${expense.amount}</td>
       <td>
         <button
           class="btn btn-danger"

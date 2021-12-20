@@ -1,5 +1,5 @@
 import React from "react";
-// import Table from "./contents/Table";
+// import "App.css";
 
 const ExpenseForm = (props) => {
   return (
@@ -11,11 +11,11 @@ const ExpenseForm = (props) => {
           className="col-5 p-2 mt-sm-2 mb-sm-3 r-3"
           onChange={(e) => props.setType(e.target.value)}
         >
-          <option value="card"> Select</option>
-          <option value="card"> Card </option>
-          <option value="cash"> Cash </option>
-          <option value="cryptocurrency"> Crypto Currency </option>
-          <option value="other"> Other </option>
+          <option value="Select"> Select</option>
+          <option value="Card"> Card </option>
+          <option value="Cash"> Cash </option>
+          <option value="Cryptocurrency"> Crypto Currency </option>
+          <option value="Other"> Other </option>
         </select>
 
         <input
